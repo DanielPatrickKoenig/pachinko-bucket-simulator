@@ -1,0 +1,45 @@
+.overlayer{
+    position: absolute;
+    top: 0;
+    width: 1000px;
+    height: 700px;
+}
+.overlayer > div{
+    position: absolute; 
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+}
+.overlayer > div > div{
+    z-index: 200;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    width: 300px;
+    height: 300px;
+    border: 1px solid #cccccc; 
+    display: flex; 
+    justify-content: center;
+    align-items: flex-end;
+}
+.pachinko-board{
+    position: relative;
+    width: 581px;
+    height: 880px;
+    border: 1px solid #000000;
+    background-image: url('https://eprize-content.s3.amazonaws.com/five-bicket-simulator/images/guide.png');
+    background-size: 100% 100%;
+}
+.pachinko-center{
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+.pachinko-ball{
+    position: absolute;
+    width: 3px;
+    height: 3px;
+    background-color: #cc0000;
+}

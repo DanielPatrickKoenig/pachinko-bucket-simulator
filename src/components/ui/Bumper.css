@@ -1,0 +1,9 @@
+.pachinko-bumper{
+    position: absolute;
+    width: 0;
+    height: 0;
+}
+.pachinko-bumper img{
+    transform: translate(-50%, -50%);
+    opacity: .5;
+}

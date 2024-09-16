@@ -1,0 +1,11 @@
+.steering-wheel{
+    width: 100vw;
+    height: 25vh;
+    position: fixed;
+    z-index: 100;
+    bottom: 0;
+    left: 0;
+}
+.steering-wheel .steering-wheel-dragger{
+
+}
